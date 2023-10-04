@@ -1,0 +1,84 @@
+/*#938478
+#D0BDA6
+#624638
+*/
+
+/*Google Font*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+ /* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #000000;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+  }
+  h1 {
+    color: #938478;
+  }
+  
+  /* Style the side navigation */
+  #choice-area {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#938478;
+    overflow-x: hidden;
+    align-content: center;
+  }
+  button {
+      background-color:#D0BDA6;
+      margin-bottom: 20px;
+      width: 140px;
+  }
+  
+  /* Side navigation links */
+  #choice-area a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color on hover */
+  #choice-area a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the gamearea */
+  #game-area {
+    margin-left: 200px;
+    padding-left: 20px;
+  }
+  
+  hr {
+      width: 500px;
+      background-color: #938478;
+
+  }
+  
+  #errors {
+      color: rgb(248, 69, 4);
+      font-weight: bold;
+  }
+  
+  #board {
+      width: 450px;
+      height: 450px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+  }
