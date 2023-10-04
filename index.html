@@ -2,7 +2,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
@@ -43,7 +42,7 @@
         <br>
         <button class="rule">How to play</button>
         <br>
-        <button class="level"> Choose your level</button>
+        <button class="level"> Game Level</button>
         <br>
         <button class= "solution">Solution</button>
         <br>
@@ -51,16 +50,23 @@
 
     </div>
 
-<div id="game-area">
+<div id="gamearea">
     <h1> GameZone</h1>
         <hr>
-            <div class="score-area"></div>
-                <div class="control-area"></div>
+            <div class="scorearea">
+              Errors: <span id="errors">0</span>
+               </div>
+
+               <!-- 9x9 board -->
+                <div id="board"></div>
+                <br>
+                <div id="digits"></div>
+                </div>
 
 
 <div class="links">
     <a href="https://github.com/Camdah77"><i class="fa-brands fa-github"></i></a>
-    <a href = "mailto: abc@example.com"><i class="fa-regular fa-envelope"></i></a>
+    <a href = "mailto: camilla.dahlstromz@gmail.com"><i class="fa-regular fa-envelope"></i></a>
 </div>
 </div>
  <!-- Font Awesome kit -->

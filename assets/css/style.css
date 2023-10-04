@@ -23,10 +23,17 @@ body {
     text-align: center;
   }
   h1 {
+    margin-top: 15px;
+    font-size: 50px;
     color: #938478;
+    align-items: center;
+    text-shadow: 2px 2px 2px #624638;
+    letter-spacing: 10px;
+    border-bottom: #624638;
   }
+
   
-  /* Style the side navigation */
+  /* Side-element */
   #choice-area {
     height: 100%;
     width: 200px;
@@ -39,12 +46,20 @@ body {
     align-content: center;
   }
   button {
-      background-color:#D0BDA6;
       margin-bottom: 20px;
       width: 140px;
+      height: 40px;
+      background-color:#624638;
+      color: antiquewhite;
+      font-size: 12px;
+      text-transform: uppercase;
+      border: none;
+      border-radius: 50%;
+      box-shadow: 4px 4px 2px #363534;
   }
+
   
-  /* Side navigation links */
+  /* links at side element */
   #choice-area a {
     color: white;
     padding: 16px;
@@ -59,26 +74,96 @@ body {
   }
   
   /* Style the gamearea */
-  #game-area {
+  #gamearea {
     margin-left: 200px;
     padding-left: 20px;
   }
   
-  hr {
-      width: 500px;
-      background-color: #938478;
+  .scorearea {
+    width: 433px;
+    height: 50px;
+    background-color:#938478;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    color: antiquewhite;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+   }
 
-  }
-  
-  #errors {
-      color: rgb(248, 69, 4);
-      font-weight: bold;
-  }
-  
-  #board {
-      width: 450px;
-      height: 450px;
-      margin: 0 auto;
-      display: flex;
-      flex-wrap: wrap;
-  }
+#board {
+  height: 416px;
+  width: 433px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #938478;
+  margin-bottom: 20px;
+  margin-top: 20px;
+        }
+ 
+  .tile {
+    width: 48px; 
+    height: 48px;
+    border: 2px solid #624638;
+    background-color: #938478;
+   
+    /* Text */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#digits {
+  width: 433px;
+  height: 50px;
+  background-color: #938478;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 14px;
+}
+
+.number {
+    width: 44px; 
+    height: 44px;
+    border: 1px solid black;
+    margin: 2px;
+
+    /* Text */
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-selected {
+    background-color: #383b3b;
+}
+
+.tile-start {
+    background-color: whitesmoke;
+}
+
+.horizontal-line {
+    border-bottom: 1px solid black;
+}
+
+.vertical-line {
+    border-right: 1px solid black;
+}
+  /* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+}
+    /* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+}
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+}
+/* Largest devices (laptops and desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+}
