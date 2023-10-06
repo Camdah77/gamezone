@@ -25,7 +25,6 @@ body {
 
   header {
     display: flex;
-    background-color:#938478;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -33,105 +32,59 @@ body {
     align-items: baseline;
     height:113px;
   
+    .logo {
+      width: 200px;
+      height: 100px;
+    }
+
 }
-
-
-  h1 {
-    margin-top: 15px;
-    font-size: 50px;
-    color: #938478;
-    align-items: center;
-    text-shadow: 2px 2px 2px #624638;
-    letter-spacing: 10px;
-    border-bottom: #624638;
-  }
-
-  
+    
   /* Side-element */
-  #choice-area {
-    height: 100%;
+  #choicearea {
+    height: 80%;
     width: 200px;
     position: fixed;
     z-index: 1;
-    top: 0;
+    top: 100px;
     left: 0;
-    background-color:#938478;
     overflow-x: hidden;
     align-content: center;
   }
-  button {
-    margin-top: 92px;
-      width: 140px;
-      height: 40px;
-      background-color:#624638;
-      color: antiquewhite;
-      font-size: 12px;
-      text-transform: uppercase;
-      border: none;
-      border-radius: 50%;
-      box-shadow: 4px 4px 2px #363534;
-  }
-
-  
-  /* links at side element */
-  #choice-area a {
-    color: white;
-    padding: 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  /* Change color on hover */
-  #choice-area a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  /* Style the gamearea */
+ .rule, .solution, .reset {
+      width: 120px;
+      height: 120px;
+      padding: 15px;
+      }
+ 
+  /* gamearea */
   #gamearea {
     margin-left: 200px;
     padding-left: 20px;
   }
   
   .scorearea {
-    width: 433px;
+    width: 500px;
     height: 50px;
-    background-color:#938478;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    color: antiquewhite;
     font-size: 12px;
     justify-content: center;
     align-items: center;
    }
 
-#board {
-  height: 416px;
-  width: 433px;
+.board {
+  height:500px;
+  width: 500px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  background-color: #938478;
+  background-color: #aabbcb;
   margin-bottom: 20px;
   margin-top: 20px;
         }
  
-  .tile {
-    width: 48px; 
-    height: 48px;
-    border: 2px solid #624638;
-    background-color: #938478;
-   
-    /* Text */
-    font-size: 20px;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#digits {
+#controlarea {
   width: 433px;
   height: 50px;
   background-color: #938478;
@@ -140,35 +93,13 @@ body {
   flex-wrap: wrap;
   font-size: 14px;
 }
-
-.number {
-    width: 44px; 
-    height: 44px;
-    border: 1px solid black;
-    margin: 2px;
-
-    /* Text */
-    font-size: 14px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.links{
+right:0;
 }
 
-.number-selected {
-    background-color: #383b3b;
-}
 
-.tile-start {
-    background-color: whitesmoke;
-}
 
-.horizontal-line {
-    border-bottom: 1px solid black;
-}
 
-.vertical-line {
-    border-right: 1px solid black;
-}
   /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
 }
