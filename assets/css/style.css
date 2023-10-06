@@ -14,9 +14,6 @@
   
  /* General styles */
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
     /* Generic project styles */
     color: #000000;
     font-family: 'Bebas Neue', sans-serif;
@@ -31,18 +28,22 @@ body {
     justify-content: space-between;
     align-items: baseline;
     height:113px;
+  }
   
     .logo {
+      align-items: center;
       width: 200px;
       height: 100px;
+      margin-left: 75px;
     }
 
-}
+
     
   /* Side-element */
   #choicearea {
     height: 80%;
     width: 200px;
+    flex-direction: column;
     position: fixed;
     z-index: 1;
     top: 100px;
@@ -50,54 +51,113 @@ body {
     overflow-x: hidden;
     align-content: center;
   }
- .rule, .solution, .reset {
-      width: 120px;
-      height: 120px;
-      padding: 15px;
-      }
- 
-  /* gamearea */
-  #gamearea {
-    margin-left: 200px;
-    padding-left: 20px;
+
+  .choicebutton{
+    width: 100px;
+    height: 100px;
+    box-shadow:4px 4px 4px #000000;
+    margin-left: 75px;
   }
-  
-  .scorearea {
-    width: 500px;
-    height: 50px;
-    margin: 0 auto;
+  .wrapper {
+    box-sizing: content-box;
+    width: 26.87em;
+    padding: 2.5em 3em;
+    background-color: #AABBCB;
+    color: #ffffff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 0.6em;
+    box-shadow: 0 0.9em 2.8em rgba(86, 66, 0, 0.2);
+  }
+  .game-container {
+    position: relative;
+    width: 100%;
+    display: grid;
+    gap: 0.6em;
+    background-color: #AABBCB;
+  }
+  .stats-container {
+    text-align: right;
+    margin-bottom: 1.2em;
+  }
+  .stats-container span {
+    font-weight: 600;
+  }
+  .card-container {
+    position: relative;
+    width: 6.25em;
+    height: 6.25em;
+    cursor: pointer;
+  }
+  .card-before,
+  .card-after {
+    position: absolute;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
     display: flex;
-    flex-wrap: wrap;
-    font-size: 12px;
-    justify-content: center;
     align-items: center;
-   }
-
-.board {
-  height:500px;
-  width: 500px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  background-color: #aabbcb;
-  margin-bottom: 20px;
-  margin-top: 20px;
-        }
- 
-#controlarea {
-  width: 433px;
-  height: 50px;
-  background-color: #938478;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  font-size: 14px;
-}
-.links{
-right:0;
-}
-
-
+    justify-content: center;
+    transition: transform 0.7s ease-out;
+    backface-visibility: hidden;
+  }
+  .card-before {
+    background: url("assets/images/memfront.webp");
+    }
+  
+  .card-after {
+    background-color: #ffffff;
+    transform: rotateY(180deg);
+  }
+  .card-container.flipped .card-before {
+    transform: rotateY(180deg);
+  }
+  .card-container.flipped .card-after {
+    transform: rotateY(0deg);
+  }
+  .controls-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #454D61;
+    top: 0;
+  }
+  button {
+    border: none;
+    border-radius: 0.3em;
+    padding: 1em 1.5em;
+    cursor: pointer;
+  }
+  #stop {
+    font-size: 1.1em;
+    display: block;
+    margin: 1.1em auto 0 auto;
+    background-color: #000000;
+    color: #ffffff;
+  }
+  .controls-container button {
+    font-size: 1.3em;
+    box-shadow: 0 0.6em 2em rgba(86, 66, 0, 0.2);
+  }
+  .hide {
+    display: none;
+  }
+  #result {
+    text-align: center;
+  }
+  #result h2 {
+    font-size: 2.5em;
+  }
+  #result h4 {
+    font-size: 1.8em;
+    margin: 0.6em 0 1em 0;
+  }
 
 
   /* Media query: large or landscape phones (576px and up) */
