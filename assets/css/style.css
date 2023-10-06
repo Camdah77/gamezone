@@ -34,11 +34,10 @@ body {
       align-items: center;
       width: 200px;
       height: 100px;
-      margin-left: 75px;
+      margin-left: 2px;    
+      margin-top: 3vh;
     }
 
-
-    
   /* Side-element */
   #choicearea {
     height: 80%;
@@ -56,20 +55,26 @@ body {
     width: 100px;
     height: 100px;
     box-shadow:4px 4px 4px #000000;
-    margin-left: 75px;
+    margin-left: 16px;
+    margin-top: 46vh;
+  }
+
+  .social-link{
+    padding-top: 4vh;
+
   }
   .wrapper {
     box-sizing: content-box;
     width: 26.87em;
     padding: 2.5em 3em;
     background-color: #AABBCB;
-    color: #ffffff;
+    color: #000000;
     position: absolute;
     transform: translate(-50%, -50%);
     left: 50%;
     top: 50%;
     border-radius: 0.6em;
-    box-shadow: 0 0.9em 2.8em rgba(86, 66, 0, 0.2);
+    box-shadow:4px 4px 4px #000000;
   }
   .game-container {
     position: relative;
@@ -77,7 +82,8 @@ body {
     display: grid;
     gap: 0.6em;
     background-color: #AABBCB;
-  }
+    }
+
   .stats-container {
     text-align: right;
     margin-bottom: 1.2em;
@@ -102,9 +108,10 @@ body {
     justify-content: center;
     transition: transform 0.7s ease-out;
     backface-visibility: hidden;
+    box-shadow:4px 4px 4px #000000;
   }
   .card-before {
-    background: url("assets/images/memfront.webp");
+    background: url("/assets/images/memfront.webp");
     }
   
   .card-after {
@@ -158,7 +165,6 @@ body {
     font-size: 1.8em;
     margin: 0.6em 0 1em 0;
   }
-
 
   /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
