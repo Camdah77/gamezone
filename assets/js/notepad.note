@@ -1,0 +1,13 @@
+
+Array for cards:
+const items =[
+    {name:"Memo2", image:"assets/images/mem2.webp" },
+    {name:"Memo3", image:"assets/images/Mem3.webp" },
+    {name:"Memo4", image:"assets/images/Mem4.webp" },
+    {name:"Memo5", image:"assets/images/mem5.webp" },
+    {name:"Memo6", image:"assets/images/mem6.webp" },
+    {name:"Memo7", image:"assets/images/Mem7.webp" },
+    {name:"Memo8", image:"assets/images/Mem8.webp" },
+    {name:"Memo9", image:"assets/images/Mem9.webp" },
+    {name:"Memo10", image:"assets/images/Mem10.webp" },
+];

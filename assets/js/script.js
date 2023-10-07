@@ -140,13 +140,13 @@ startButton.addEventListener("click", () => {
   movesCount = 0;
   seconds = 0;
   minutes = 0;
-  //controls amd buttons visibility
+  //Control the visibility buttons 
   controls.classList.add("hide");
   stopButton.classList.remove("hide");
   startButton.classList.add("hide");
   //Start timer
   interval = setInterval(timeGenerator, 1000);
-  //initial moves
+  //Counting moves
   moves.innerHTML = `<span>Moves:</span> ${movesCount}`;
   initializer();
 });
