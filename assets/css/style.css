@@ -18,25 +18,9 @@ body {
     color: #000000;
     font-family: 'Bebas Neue', sans-serif;
     text-align: center;
-  }
-
-  header {
-    display: flex;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    justify-content: space-between;
-    align-items: baseline;
-    height:113px;
-  }
-  
-    .logo {
-      width: 216px;
-      height: 84px;
-      margin-top: 38px;
-      margin-left: 34px;
+    background-color: #454D61;
+      }
     
-    }
 .welcomeimg{
   width: 256px;
   height: 290px;
@@ -50,21 +34,6 @@ body {
   margin-top: 12px;
   
 }
-
-  /* Side-element */
-  #choicearea {
-    display: none;
-    height: 80%;
-    width: 200px;
-    flex-direction: column;
-    position: fixed;
-    z-index: 1;
-    top: 100px;
-    left: 0;
-    overflow-x: hidden;
-    align-content: center;
-  }
-
   .choicebutton{
     display: none;
     width: 100px;
@@ -184,14 +153,7 @@ body {
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
   
-  .logo {
-    width: 216px;
-    height: 84px;
-    margin-top: 38px;
-    margin-left: 38px;
-  }
-
-  .welcomeimg {
+ .welcomeimg {
     width: 700px;
     height: 600px;
     margin-left: -142px;
