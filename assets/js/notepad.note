@@ -11,3 +11,13 @@ const items =[
     {name:"Memo9", image:"assets/images/Mem9.webp" },
     {name:"Memo10", image:"assets/images/Mem10.webp" },
 ];
+
+Color scheme
+#454D61 darkest
+#567799
+#7A9DB5
+#AABCB  lightest
+
+wrapper
+    width: 26.87em;
+    padding: 2.5em 3em;

@@ -4,7 +4,7 @@
 */
 
 /*Google Font*/
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,500;1,400&display=swap');;
 
 * {
     padding: 0;
@@ -16,38 +16,59 @@
 body {
     /* Generic project styles */
     color: #000000;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Bebas Neue', 'montserrat' sans-serif;
     text-align: center;
     background-color: #454D61;
       }
     
+div#choicearea {
+width: 280px;
+height: 100%;
+}
+
+.logo{
+  margin-left:30px;
+  margin-top: 30px;
+}
+
 .welcomeimg{
   width: 256px;
   height: 290px;
   margin-left: 2px;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 .startbutton{
   background-color: #7A9DB5;
   color: #ffffff;
   padding-top: 19px;
   margin-top: 12px;
-  
-}
+ }
+
   .choicebutton{
-    display: none;
-    width: 100px;
-    height: 100px;
-    box-shadow:4px 4px 4px #000000;
+    width: 50px;
+    height: 50px;
+    box-shadow:6px 6px 6px #000000;
     margin-left: 16px;
     margin-top: 46vh;
   }
-
+  .bywho{
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'montserrat';
+      }
+hr{
+  color: #ffffff;
+  width: 100%;
+}
   .social-link{
-    display: none;
-    padding-top: 4vh;
-
+     padding-top: 4vh;
   }
+
+ .rules{
+  margin-top: 33px;
+  box-shadow:8px 8px 8px #000000;
+ 
+   }
   .wrapper {
     box-sizing: content-box;
     width: 26.87em;
@@ -59,8 +80,9 @@ body {
     left: 50%;
     top: 50%;
     border-radius: 0.6em;
-    box-shadow:4px 4px 4px #000000;
+    box-shadow:8px 8px 8px #000000;
   }
+
   .game-container {
     position: relative;
     width: 100%;
@@ -132,6 +154,7 @@ body {
     margin: 1.1em auto 0 auto;
     background-color: #000000;
     color: #ffffff;
+    box-shadow: 8px 8px 8px #454D61;
   }
   .controls-container button {
     font-size: 1.3em;
@@ -150,6 +173,20 @@ body {
     font-size: 1.8em;
     margin: 0.6em 0 1em 0;
   }
+
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+ 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
   
