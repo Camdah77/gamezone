@@ -1,3 +1,6 @@
+document.addEventListener("DOMContentLoaded", function() {
+
+
 const moves = document.getElementById("moves-count");
 const timeValue = document.getElementById("time");
 const startButton = document.getElementById("start");
@@ -150,15 +153,16 @@ startButton.addEventListener("click", () => {
   moves.innerHTML = `<span>Moves:</span> ${movesCount}`;
   initializer();
 });
-//Stop game
+//Stop game- goes back to welcome page
 stopButton.addEventListener(
   "click",
-  (stopGame = () => {
+  (stopGame = () =>  {
     controls.classList.remove("hide");
     stopButton.classList.add("hide");
     startButton.classList.remove("hide");
     clearInterval(interval);
-  })
+  }) 
+ 
 );
 //Initialize values and func calls
 const initializer = () => {
@@ -169,3 +173,4 @@ const initializer = () => {
   matrixGenerator(cardValues);
 };
 
+})

@@ -1,110 +1,148 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Art of memory
+Art of memory is an interactive game that turns artwork into a game. By findind matching cards  the user can practice their memorys with colorful and joyful cards. The game has a timer and number of moves so the user can compete against himself.
 
-Welcome Camilla Dahlström,
+![Site view across devices](assets/images/readme/memoryfirsttimg.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Table of Contents
++ [UX](#ux "UX")
+  + [Site Purpose](#site-purpose "Site Purpose")
+  + [Site Goal](#site-goal "Site Goal")
+  + [Audience](#audience "Audience")
+  + [Communication](#communication "Communication")
+  + [Current User Goals](#current-user-goals "Current User Goals")
+  + [New User Goals](#new-user-goals "New User Goals")
++ [Design](#design "Design")
+  + [Colour Scheme](#colour-scheme "Colour Scheme")
+  + [Typography](#typography "Typography")
+  + [Imagery](#imagery "Imagery")
++ [Features](#features "Features")
+  + [Existing Features](#existing-features "Existing Features")
++ [Testing](#testing "Testing")
+  + [Validator Testing](#validator-testing "Validator Testing")
+  + [Unfixed Bugs](#unfixed-bugs "Unfixed Bugs")
++ [Technologies Used](#technologies-used "Technologies Used")
+  + [Main Languages Used](#main-languages-used "Main Languages Used")
+  + [Frameworks, Libraries & Programs Used](#frameworks-libraries-programs-used "Frameworks, Libraries & Programs Used")
++ [Deployment](#deployment "Deployment")
++ [Credits](#credits "Credits")
+  + [Content](#content "Content")
+  + [Media](#media "Media")
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+  ## UX
 
-## Gitpod Reminders
+### Site Purpose:
+Welcome to Art of memory. This game is made as a project in Code Institue´s education "Fullstack developer". During the time I have been working on this project, I have realized that this type of game can be sold as a concept to artists who are trying to sell their artwork on their  websites - to make their users get to know their art and give added value to the homepage instead of a pure sales page. Anyway, My purpose of the page is to exercise the user's memory in a playful and colorful way.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Site Goal:
+I want to give the user a 
+### Audience:
+The artworks can be changes to 
 
-`python3 -m http.server`
+### Communication:
+The game has a big button to start the game. If the user want to quit before all cards are matched the gameboard has a big stop-buttom. You come to the welcomepage. 
+### Current User Goals:
 
-A blue button should appear to click: _Make Public_,
+### New User Goals:
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Future Goals:
 
-A blue button should appear to click: _Make Public_,
+## Design
 
-Another blue button should appear to click: _Open Browser_.
+### Wireframes:
+![Wireframe welcome page](assets/images/readme/wireframewp.webp)
+![Wireframe gamepage](assets/images/readme/wireframegp.webp)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Colour Scheme:
+Since the artworks are filled with colors, I wanted  a soft and sober style of the page.  
+#454D61
+#567799
+#7A9DB5
+#AABCB 
+![Colour Palette](assets/images/readme/colourscheme.webp)
 
-To log into the Heroku toolbelt CLI:
+### Typography:
+The fonts are picked from Google Fonts library.
+1. BEBAS NEUE - This is the main heading font, and it resembles the universe. It felt fitting to the design.
+2. Montserratr the tagline. I wanted it to be easy to read.
+3. Brittany - In the word: ART in the logotype.This font is picked from Canva.com
+I choosed theese fonts becase the are matching toghether.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Imagery:
+All artworks are created by me and have been photographed in a studio. 
+The images are modified and made as wedp.format in photoshop
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Features
 
-------
+### Existing Features:
 
-## Release History
+#### Landing Page:
+![Landing Page]
+#### Page Title:
+![Page Heading & Tagline]
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+#### Instructions Panel:
+![How to play button]
+![Instructions panel]
 
-**September 20 2023:** Update Python version to 3.9.17.
+#### Game Area:
+![Game screen & toggle switches]
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+#### Win Screen:
+![Win Screen]
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+#### Lose Screen:
+![Lose Screen]
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+#### Social Links:
+![Social Links]
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Features Left to Implement
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Testing
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Validator Testing
+- html files pass through the [W3C validator](https://validator.w3.org/) with no issues found.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+![W3C validator message](assets/images/images-readme/validator-html.png)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+- CSS files pass through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) with no issues found.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+![Jigsaw validator message](assets/images/images-readme/validator-css.png)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- JS files pass through [JSHint](https://jshint.com/) with no issues found.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+![JSHint overview](assets/images/images-readme/validator-js.png)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- page has an excellent Accessibility rating in Lighthouse
 
-------
+![Accessibility score](assets/images/images-readme/lighthouse-score.png)
 
-## FAQ about the uptime script
 
-**Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### Unfixed Bugs
 
-**How will this affect me?**
+## Technologies Used
+### Main Languages Used
+- HTML5
+- CSS3
+- Javascript
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+### Frameworks, Libraries & Programs Used
+- Google Fonts - 
+- Font Awesome - 
+- GitPod - 
+- GitHub - to store my repository for submission.
+- Am I Responsive? - to ensure the project looked good across all devices.
+- Adobe photoshop - to create the interactive artwork.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+## Deployment
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+## Credits
 
-**So….?**
+### Content
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+### Media
+- All artwork created by me.

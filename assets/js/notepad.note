@@ -1,4 +1,7 @@
 
+Delete documet before submitting
+
+
 Array for cards:
 const items =[
     {name:"Memo2", image:"assets/images/mem2.webp" },
@@ -12,6 +15,18 @@ const items =[
     {name:"Memo10", image:"assets/images/Mem10.webp" },
 ];
 
+
+
+    <img src="assets/images/Mem3.webp" class="gallery">
+    <img src="assets/images/Mem4.webp" class="gallery">
+    <img src="assets/images/mem5.webp" class="gallery">
+    <img src="assets/images/mem6.webp" class="gallery">
+    <img src="assets/images/Mem7.webp" class="gallery">
+    <img src="assets/images/Mem8.webp" class="gallery">
+    <img src="assets/images/Mem9.webp" class="gallery">
+    <img src="assets/images/Mem10.webp" class="gallery">
+
+
 Color scheme
 #454D61 darkest
 #567799
@@ -21,3 +36,13 @@ Color scheme
 wrapper
     width: 26.87em;
     padding: 2.5em 3em;
+
+    python3 -m http.server
+transition: width 2s;  <img src="assets/images/Mem3.webp" class="gallery">
+  <img src="assets/images/Mem4.webp" class="gallery">
+  <img src="assets/images/mem5.webp" class="gallery">
+  <img src="assets/images/mem6.webp" class="gallery">
+  <img src="assets/images/Mem7.webp" class="gallery">
+  <img src="assets/images/Mem8.webp" class="gallery">
+  <img src="assets/images/Mem9.webp" class="gallery">
+  <img src="assets/images/Mem10.webp" class="gallery">c
