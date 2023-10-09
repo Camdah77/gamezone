@@ -16,7 +16,8 @@
 body {
     /* Generic project styles */
     color: #000000;
-    font-family: 'Bebas Neue' 'montserrat' sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     background-color: #454D61;
       }
@@ -114,7 +115,7 @@ hr{
     box-shadow:4px 4px 4px #000000;
   }
   .card-before {
-    background: url("../assets/images/memfront.webp");
+    background: url("../images/memfront.webp");
     }
   
   .card-after {
@@ -162,7 +163,7 @@ hr{
   #result {
     text-align: center;
     color:#7A9DB5;
-    margin-top: 30px;
+    margin-top: 100px;
   }
   #result h2 {
     font-size:20px;
