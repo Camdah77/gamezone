@@ -50,8 +50,15 @@ The game has a big button to start the game. If the user want to quit before all
 ## Design
 
 ### Wireframes:
+
+Wireframe over welcomepage:
 ![Wireframe welcome page](assets/images/readme/wireframewp.webp)
+
+Wireframe over gamepage:
 ![Wireframe gamepage](assets/images/readme/wireframegp.webp)
+
+Mindmap over JS-happenings on gamepage:
+![Wireframe gamepage](assets/images/readme/mindmap.webp)
 
 ### Colour Scheme:
 Since the artworks are filled with colors, I wanted  a soft and sober style of the page.  
@@ -70,7 +77,7 @@ I choosed theese fonts becase the are matching toghether.
 
 ### Imagery:
 All artworks are created by me and have been photographed in a studio. 
-The images are modified and made as wedp.format in photoshop
+The images are modified and made as wedp.format in photoshop.
 
 ## Features
 
@@ -82,8 +89,8 @@ The images are modified and made as wedp.format in photoshop
 ![Page Heading & Tagline]
 
 #### Instructions Panel:
-![How to play button]
-![Instructions panel]
+![Instruction: how to play](assets/images/rules.webp)
+
 
 #### Game Area:
 ![Game screen & toggle switches]
