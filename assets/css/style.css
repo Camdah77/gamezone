@@ -36,17 +36,22 @@ body {
     margin-top: -162px;
     margin-bottom: 20px;
 }
-.startbutton{
+button{
   margin-top: -27px;
   margin-left: -42px;
-  height: 50px;
+  height: 40px;
   width: 153px;
   background-color: #567799;
   color: #ffffff;
   border-radius: 5px 25px;
   font-size: 14px;
   text-align: center;
+  box-shadow:8px 8px 8px #000000;
  }
+ button#stop{
+  margin-top: 0px;
+  margin-left: 2px;
+   }
 
   .bywho{
     color: #ffffff;
@@ -60,23 +65,11 @@ hr{
   display: hide;
 }
   .social-link{
-     padding-top: 2vh;
+     padding-top: 2vh;   
      padding-right: 5vw;
   }
 
-/*Rulebutton- img shows when hoover*/
- .rules{
-  margin-top: -85px;
-  box-shadow:8px 8px 8px #000000;
-  background-color: #7A9DB5;
-  color:#ffffff;
-  margin-left: -21px;
-      }
-
-.rules:hover + .hide {
-      display: block;
-     }
-  /*Gamearea*/
+/*Gamearea*/
   .wrapper {
     box-sizing: content-box;
     width: 250px;
@@ -132,7 +125,6 @@ hr{
     }
   
   .card-after {
-    background-color: #ffffff;
     transform: rotateY(180deg);
   }
   .card-container.flipped .card-before {
@@ -152,25 +144,7 @@ hr{
     background-color: #454D61;
     top: 0;
   }
-  button {
-    border: none;
-    border-radius: 0.3em;
-    padding: 1em 1.5em;
-    cursor: pointer;
-  }
-  #stop {
-    font-size: 16px;
-    font-size: 16px;
-    text-align: center;
-    height: 20px;
-    margin-bottom: 20px;
-    background-color: #454D61;
-    color: #ffffff;
-    box-shadow: 8px 8px 8px #000000;
-     }
-  .controls-container button {
-    box-shadow: 0 0.6em 2em rgba(86, 66, 0, 0.2);
-  }
+
   .hide {
     display: none;
   }
@@ -190,7 +164,85 @@ hr{
   .hide {
     display: none;
   }
-  
+
+  /*PopUp-Rules*/
+  .btn {
+    background-color: #567799;
+    color: #ffffff;
+    border-radius: 5px 25px;
+    display: inline-block;
+    padding: 8px 25px;
+    transition: background .3s;
+    margin-top: -16px;
+    box-shadow:8px 8px 8px #000000;
+  }
+ 
+  .popup {
+    position: fixed;
+    padding: 10px;
+    max-width: 500px;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background:#454D61;
+    color: #ffffff;
+    visibility: hidden;
+    opacity: 0;
+    /* "delay" the visibility transition */
+    -webkit-transition: opacity .5s, visibility 0s linear .5s;
+    transition: opacity .5s, visibility 0s linear .5s;
+    z-index: 1;
+  }
+  .popup:target {
+    visibility: visible;
+    opacity: 1;
+    /* cancel visibility transition delay */
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+  }
+  .popup-close {
+    position: absolute;
+    padding: 10px;
+    max-width: 500px;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(255,255,255,.9);
+  }
+  .popup .close {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding: 5px;
+    color: #fffcfc;
+    transition: color .3s;
+    font-size: 2em;
+    line-height: .6em;
+    font-weight: bold;
+  }
+    .close-popup {
+    background:#567799 ;
+    cursor: default;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    visibility: hidden;
+    /* "delay" the visibility transition */
+    -webkit-transition: opacity .5s, visibility 0s linear .5s;
+    transition: opacity .5s, visibility 0s linear .5s;
+  }
+  .popup:target + .close-popup{  
+    opacity: 1;
+    visibility: visible;
+    /* cancel visibility transition delay */
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+  }
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
  
@@ -231,8 +283,6 @@ hr{
   font-size: 20px;
   margin-left: -42px;
 }
-
-
 
 }
 /* Largest devices (laptops and desktops, 1200px and up) */
