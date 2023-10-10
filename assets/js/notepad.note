@@ -45,4 +45,6 @@ transition: width 2s;  <img src="assets/images/Mem3.webp" class="gallery">
   <img src="assets/images/Mem7.webp" class="gallery">
   <img src="assets/images/Mem8.webp" class="gallery">
   <img src="assets/images/Mem9.webp" class="gallery">
-  <img src="assets/images/Mem10.webp" class="gallery">c
+  <img src="assets/images/Mem10.webp" class="gallery">
+
+      <img src="assets/images/rules.webp" class="rules" alt="Rules: find 8 matching pairs by choosing two cards on the board. If they match- choose new card.  "><br>
