@@ -1,7 +1,8 @@
 # Art of memory
+python3 -m http.server
 Art of memory is an interactive game that turns artwork into a game. By findind matching cards  the user can practice their memorys with colorful and joyful cards. The game has a timer and number of moves so the user can compete against himself.
 
-![Site view across devices](assets/images/readme/memoryfirsttimg.png)
+![Site view across devices](assets/images/readme/memoryfirsttimg.webp)
 
 ## Table of Contents
 + [UX](#ux "UX")
