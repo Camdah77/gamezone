@@ -25,16 +25,16 @@ body {
   width: 280px;
   height: 150px;
   flex-wrap: wrap;
+  margin-left: 20vw;
   }
 
 .logo{
-  margin-left:-2px;
   margin-top: 11px;
   width: 150px;
 }
 
 .welcomeimg {
-    margin-left: -13px;
+    margin-left: -28px;
     width: 270px;
     margin-top: -162px;
     margin-bottom: 20px;
@@ -56,7 +56,7 @@ body {
   width: 220px;
   height: 150px;
   flex-wrap: wrap;
-  margin-left: 63px;
+  margin-left: 60px;
  }
 
  button#stop{
@@ -113,6 +113,11 @@ body {
     width: 50px;
     gap:5px
   }
+  img.image {
+    width: 50px;
+    height: 50px;
+  }
+
   .card-before,
   .card-after {
     position: absolute;
@@ -128,6 +133,7 @@ body {
   }
   .card-before {
     background: url("../images/memfront.webp");
+    background-size: cover;
     }
   
   .card-after {
@@ -149,6 +155,7 @@ body {
     width: 100%;
     height: 100%;
     top: 0;
+    left: 9px;
     
   }
 
@@ -258,7 +265,7 @@ body {
     width: 768px;
    }
    .controls-container {
-    top: 59px;
+    top: 0px;
     left: 5px;
     height: 100%;
   }
@@ -318,7 +325,6 @@ img.image {
 @media screen and (min-width: 992px) {
   
   .controls-container {
-    top: 59px;
     left: 5px;
     height: 100%;
   }
@@ -329,7 +335,7 @@ img.image {
 
 .wrapper{
     left: 50%;
-    top: 561px;
+        top: 410px;
   }
   .game-container {
     height: 477px;

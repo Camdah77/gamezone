@@ -112,10 +112,10 @@ gameContainer.innerHTML += `
        if (firstCardValue == secondCardValue) {
             firstCard.classList.add("matched");
             secondCard.classList.add("matched");
-             firstCard = false;
+            firstCard = false;
              winCount += 1; /*increase wincount*/
             //check if winCount ==half of cardValues
-            if (winCount == Math.floor(cardValues.length / 2)) {
+             if (winCount == Math.floor(cardValues.length / 2)) {
               result.innerHTML = `<h2>Hurray - You won!</h2>
             <h4>Moves: ${movesCount}</h4>`;
               stopGame();
