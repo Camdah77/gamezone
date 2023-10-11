@@ -27,7 +27,6 @@ let movesCount = 0, /*Initial moves*/
         {name:"Memo6", image:"assets/images/mem6.webp"},
         {name:"Memo7", image:"assets/images/mem7.webp"},
         {name:"Memo8", image:"assets/images/mem8.webp"},
-        {name:"Memo9", image:"assets/images/mem9.webp"},
     ];
 
 /*Timegenerator*/
