@@ -1,6 +1,5 @@
 # Art of memory
-python3 -m http.server
-Art of memory is an interactive game that turns artwork into a game. By findind matching cards  the user can practice their memorys with colorful and joyful cards. The game has a timer and number of moves so the user can compete against himself.
+Art of memory is a classic game for one player. The game contains 8 pairs and start with the front up side down. The user select two cards-  if they match- two new cards can be selected.  The game count moves and time so the  user can compete against himself.
 
 ![Site view across devices](assets/images/readme/memoryfirsttimg.webp)
 
@@ -32,7 +31,8 @@ Art of memory is an interactive game that turns artwork into a game. By findind 
   ## UX
 
 ### Site Purpose:
-Welcome to Art of memory. This game is made as a project in Code Institue´s education "Fullstack developer". During the time I have been working on this project, I have realized that this type of game can be sold as a concept to artists who are trying to sell their artwork on their  websites - to make their users get to know their art and give added value to the homepage instead of a pure sales page. Anyway, My purpose of the page is to exercise the user's memory in a playful and colorful way.
+Welcome to Art of memory. This game is made as a student project at Code Institue´s education "Fullstack developer". The project includes the languages JavaScript, HTML and CSS. I hope the user find the game challenging and relaxing. The art are made by myself and while working with the project I realized that this kind of game is saleable to artists and photographers who wish to integrate  
+During the developing I have realized that this type of game can be useful for artists who are trying to sell their artwork on their  websites - to make their users get to know their art and give added value to the homepage instead of a pure sales page. Anyway, My purpose of the page is to exercise the user's memory in a playful and colorful way.
 
 ### Site Goal:
 I want to give the user a 

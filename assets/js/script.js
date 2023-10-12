@@ -127,7 +127,7 @@ document.addEventListener("DOMContentLoaded", function () {
    
    
     gameContainer.innerHTML += 
-    `   <div class="card-container" data-card-value="${cardValues[i].name}">
+      `<div class="card-container" data-card-value="${cardValues[i].name}">
         <div class="card-before"> </div>
         <div class="card-after">
         <img src="${cardValues[i].image}" class="image"/> </div></div>  `;
@@ -215,10 +215,10 @@ document.addEventListener("DOMContentLoaded", function () {
   );
  /** Inizilize function and call of values */
         const initializer = () => {
-          result.innerText = "";
-          winCount = 0;
+              result.innerText = "";
+              winCount = 0;
         let cardValues = generateRandom();
-          console.log(cardValues);
-          matrixGenerator(cardValues);
+            console.log(cardValues);
+            matrixGenerator(cardValues);
   };
   }})
