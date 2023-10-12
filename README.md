@@ -32,10 +32,11 @@ Art of memory is a classic game for one player. The game contains 8 pairs and st
 
 ### Site Purpose:
 Welcome to Art of memory. This game is made as a student project at Code Institue´s education "Fullstack developer". The project includes the languages JavaScript, HTML and CSS. I hope the user find the game challenging and relaxing. The art are made by myself and while working with the project I realized that this kind of game is saleable to artists and photographers who wish to integrate  
-During the developing I have realized that this type of game can be useful for artists who are trying to sell their artwork on their  websites - to make their users get to know their art and give added value to the homepage instead of a pure sales page. Anyway, My purpose of the page is to exercise the user's memory in a playful and colorful way.
+During the process I have realized that this type of game can be useful for artists and photgraphers to increase the value on their websites instead of just having a clean sales. Anyway, MY purpose of the page is to exercise the user's memory in a playful and colorful way.
 
 ### Site Goal:
-I want to give the user a 
+I have used my skills that I have learned when studying JavaScript into a simple and fun game. The goal is to engage both new user and 
+
 ### Audience:
 The artworks can be changes to 
 
