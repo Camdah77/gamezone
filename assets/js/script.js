@@ -15,9 +15,8 @@ document.addEventListener("DOMContentLoaded", function () {
   let seconds = 0,
     /*Initial Time:seconds*/
     minutes = 0; /*Initial Time: minutes*/
-  let movesCount = 0,
-    /*Initial moves*/
-    winCount = 0; /*Initial win count*/
+  let movesCount = 0 /*Initial moves*/
+  let winCount = 0 /*Initial win count*/
 
   /*Array for cards:*/
   const items = [{
