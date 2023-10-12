@@ -12,11 +12,10 @@ document.addEventListener("DOMContentLoaded", function () {
   let interval;
   let firstCard = false;
   let secondCard = false;
-  let seconds = 0,
-    /*Initial Time:seconds*/
-    minutes = 0; /*Initial Time: minutes*/
-  let movesCount = 0 /*Initial moves*/
-  let winCount = 0 /*Initial win count*/
+  let seconds = 0;    /*Initial Time:seconds*/
+ let  minutes = 0; /*Initial Time: minutes*/
+  let movesCount = 0; /*Initial moves*/
+  let winCount = 0; /*Initial win count*/
 
   /*Array for cards:*/
   const items = [{
