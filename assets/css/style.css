@@ -19,7 +19,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   background-color: #454D61;
-  margin:0;
+  margin: 0;
 }
 
 /* Welcome img>> image, control container + startbutton */
@@ -75,7 +75,8 @@ body {
   font-family: 'montserrat';
   margin-top: -12px;
 }
-.social-links{
+
+.social-links {
   margin-left: -56px;
 }
 
@@ -144,6 +145,7 @@ img.image {
 .card-before {
   background: url("../images/memfront.webp");
   background-size: cover;
+  content: attr(alt) "frontcard with an elephant. Artwork from Camilla Dahlstrom";
 }
 
 .card-after {
@@ -157,6 +159,7 @@ img.image {
 .card-container.flipped .card-after {
   transform: rotateY(0deg);
 }
+
 button#stop {
   background-color: #567799;
   color: #ffffff;
@@ -273,7 +276,7 @@ button#stop {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-  
+
   /* Welcome img>> image, control container + startbutton */
   .welcomeimg {
     height: 754px;
@@ -294,7 +297,7 @@ button#stop {
     font-size: 22px;
   }
 
- /* Chociearea>> Logo, social link and rules */
+  /* Chociearea>> Logo, social link and rules */
   #choicearea {
     display: flex;
     margin-left: 32vw;
@@ -321,20 +324,24 @@ button#stop {
     height: 613px;
     top: 690px;
     left: 48%;
-}
+  }
+
   .game-container {
     height: 468px;
     margin-left: 20px;
     width: auto;
   }
+
   img.image {
     height: 100px;
     width: 100px;
   }
+
   .card-container {
     height: 100px;
     width: 100px;
   }
+
   .card-before,
   .card-after {
     display: flex;
@@ -344,6 +351,7 @@ button#stop {
 
   .card-before {
     background: url("../images/memfront.webp");
+    content: attr(alt) "frontcard with an elephant. Artwork from Camilla Dahlstrom";
     background-size: 100%;
 
   }
@@ -377,7 +385,7 @@ button#stop {
     img.image {
       height: 100px;
       width: 100px;
-      alt: "Front card of memory. Artwork from Camilla Dahlström";
+      content: attr(alt) "frontcard with an elephant. Artwork from Camilla Dahlstrom";
     }
 
     .card-container {
@@ -394,7 +402,7 @@ button#stop {
 
     .card-before {
       background: url("../images/memfront.webp");
-      alt: "Front card of memory. Artwork from Camilla Dahlström";
+      content: attr(alt) "frontcard with an elephant. Artwork from Camilla Dahlstrom";
       background-size: 100%;
 
 

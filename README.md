@@ -72,8 +72,6 @@ Wirefram:gamepage:
 Mindmap over JS-happenings on gamepage:
 ![Wireframe gamepage](assets/images/readme/mindmap.webp)
 
-
-
 ### Colour Scheme:
 Since the artworks are filled with colors, I wanted  a soft and sober style of the page.  
 So I chooced four tones of blue: #454D61, #567799, #7A9DB5, #AABCB which match the artworks.
@@ -98,7 +96,7 @@ The page contains a welcomepage with a start button. When you click on the butto
 #### Landing Page:
 ![Landing Page]
 #### Page Title:
-![Logotype: Art of memory](assets/images/memlogotype.webp)
+![Logotype: Art of memory](assets/images/logoartmemo.webp)
 The titel of the page is Art of memory that name is also included in the logotype of the page. 
 Under the logotype I have wrote: Art & game created by Camilla Dahlström.
 
@@ -116,27 +114,23 @@ Good luck!"
 #### Social Links:
 Under the logtype I have added icons to github and my emailadress.
 
-### Features Left to Implement
-
 ## Testing
 
-
 ### Validator Testing
+- page has an excellent Accessibility rating in Lighthouse.
+  Screenshot from light house: see image below:
+
 - html files pass through the [W3C validator](https://validator.w3.org/) with no issues found.
 
-![W3C validator message](assets/images/images-readme/validator-html.png)
+![W3C validator message & lightshouse accessibility](assets/images/readme/w3c.webp)
 
 - CSS files pass through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) with no issues found.
 
-![Jigsaw validator message](assets/images/images-readme/validator-css.png)
+![Jigsaw validator message](assets/images/readme/W3%20CSS.webp)
 
 - JS files pass through [JSHint](https://jshint.com/) with no issues found.
 
-![JSHint overview](assets/images/images-readme/validator-js.png)
-
-- page has an excellent Accessibility rating in Lighthouse
-
-![Accessibility score](assets/images/images-readme/lighthouse-score.png)
+![JSHint overview](assets/images/readme/JS%20Hint.webp)
 
 ### Unfixed Bugs
 
@@ -152,8 +146,7 @@ Under the logtype I have added icons to github and my emailadress.
 - Font Awesome - for the social links icons 
 - GitPod - Integrated Development Environment (IDE) used to build the site
 - GitHub - to store my repository for submission.
-- Am I Responsive? - To ensure the project looked good across all devices.
-- Adobe photoshop - to create the wedp-files artwork.
+- - Adobe photoshop - to create the wedp-files artwork.
 - Canva.com - to create Wireframes and logotype
 - Chrome DevTools - to inspect the website
 - Lighthouse - used to assess the overall quality of the site.
@@ -161,7 +154,6 @@ Under the logtype I have added icons to github and my emailadress.
 - W3C CSS Validation site - used to find issues in the CSS for the site and to resolve them.
 - JS Hint validation site - used to find issues in the JavaScript for the site and to resolve them.
 - Am I Responsive? site - Generate screenshots of the site across different devices and screen sizes.
-
 
 ## Deployment
 The site is created in Gitpod with a template from CodeInstitute.
@@ -172,8 +164,21 @@ In the GitHub repository, navigate to the Settings tab
 From the source section drop-down menu, select the Main Branch
 Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 ## Credits
-
 ### Content
+Code Institute "Love maths" https://codeinstitute.net/ good and educational walkthrought  for practical javascript
+
+W3School Online Web Tutorials https://www.w3schools.com/ Useful guides in javascript.
+
+Codepen https://codepen.io/ Useful inspiration and tutorials from user.
+
+Canva https://www.canva.com/ Images, presentations are made in canva.com 
+
+Thank you
+My mentor Lauren-Nicole Popich Lauren-Nicole has pushed and guided me in the right direction.  She always has wise advice and has a great knowledge of coding. I am so grateful to her for having patience with me. 
+
+My Cohort Facilitator David Calikes David is fantastic. He always give his student great energy. He encourages me when I doubt my knowledge.
+
+My Kids, Hugo and William for testing the game and give honest opinions. 
 
 ### Media
 - All artwork created by me.

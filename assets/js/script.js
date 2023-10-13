@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const items = [{
       name: "Memo1",
       image: "assets/images/mem1.webp",
-     
+
     },
     {
       name: "Memo2",
