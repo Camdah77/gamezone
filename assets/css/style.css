@@ -377,6 +377,7 @@ button#stop {
     img.image {
       height: 100px;
       width: 100px;
+      alt: "Front card of memory. Artwork from Camilla Dahlström";
     }
 
     .card-container {
@@ -393,7 +394,9 @@ button#stop {
 
     .card-before {
       background: url("../images/memfront.webp");
+      alt: "Front card of memory. Artwork from Camilla Dahlström";
       background-size: 100%;
+
 
     }
   }

@@ -22,7 +22,8 @@ document.addEventListener("DOMContentLoaded", function () {
   /*Array for cards:*/
   const items = [{
       name: "Memo1",
-      image: "assets/images/mem1.webp"
+      image: "assets/images/mem1.webp",
+     
     },
     {
       name: "Memo2",
