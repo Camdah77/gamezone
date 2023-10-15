@@ -179,12 +179,14 @@ button#stop {
 /* Message when all cards are matched */
 #result {
   text-align: center;
-  color: #7A9DB5;
-  margin-top: 100px;
+  color: #ffffff;
+  margin-top: 175px;
+  margin-bottom: 120px;
+  font-size: 12px;
 }
 
 #result h2 {
-  font-size: 20px;
+  font-size: 14px;
 }
 
 #result h4 {
