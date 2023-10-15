@@ -51,10 +51,10 @@ The game has a big button to start the game. If the user want to quit before all
 ### Current User Goals:
 
 ### New User Goals:
-
-
+New users compete against themself and hopefully will come back. I hope the users find it relaxing with the colorful. 
 ### Future Goals:
-
+The game can be a part of a an artist´s webshop to get more interactions with the users. 
+It can also have a Top 10 list and the artwork can be exchanged frequently. 
 ## Design
 
 ### Wireframes:
